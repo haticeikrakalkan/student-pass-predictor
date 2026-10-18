@@ -1,6 +1,6 @@
 # ScholarPath: Student Pass/Fail Predictor
 
-![CI](https://github.com/haticeikrakalkan/FastAPI-Student-Predictor/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/haticeikrakalkan/student-pass-predictor/actions/workflows/ci.yml/badge.svg)
 
 An end-to-end machine learning project: from data exploration to a trained model served through a **FastAPI** REST API and a simple web interface, packaged with **Docker**, tested with **pytest**, checked by **GitHub Actions** and deployed on **Render**.
 
@@ -10,7 +10,7 @@ Given background information about a student (family, study habits, lifestyle, a
 
 ## Live demo
 
-**[Open the app](https://fastapi-student-predictor.onrender.com)** | [API docs](https://fastapi-student-predictor.onrender.com/docs)
+**[Open the app](https://student-pass-predictor.onrender.com)** | [API docs](https://student-pass-predictor.onrender.com/docs)
 
 > The demo runs on a free hosting plan. If nobody has used it for a while it goes to sleep, so the first load can take about a minute.
 
@@ -83,8 +83,8 @@ Python 3.13 is recommended: it is the version used for training, in Docker and i
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/haticeikrakalkan/FastAPI-Student-Predictor.git
-cd FastAPI-Student-Predictor
+git clone https://github.com/haticeikrakalkan/student-pass-predictor.git
+cd student-pass-predictor
 
 # 2. (Optional) create a virtual environment
 python -m venv .venv
