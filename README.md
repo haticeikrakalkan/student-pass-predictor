@@ -60,8 +60,8 @@ Accuracy dropped slightly (2 students) but more failing students are caught, whi
 .
 ├── app.py                 # FastAPI application
 ├── student_model.pkl      # Saved model + encoder + scaler
-├── model_test.py          # Quick script to test the saved model
 ├── test_model.py          # pytest test for the saved model
+├── test_api.py            # pytest tests for the API endpoints
 ├── testdatascaled.csv     # Scaled test data used by the tests
 ├── Dockerfile             # Container image definition
 ├── .dockerignore          # Files excluded from the Docker image
@@ -71,6 +71,8 @@ Accuracy dropped slightly (2 students) but more failing students are caught, whi
 ├── notebooks/
 │   ├── 01_exploratory_data_analysis.ipynb   # EDA, regression and classification experiments, tuning
 │   ├── 02_model_training_pipeline.ipynb     # Final training and model export
+│   ├── 03_mlflow_tracking.ipynb             # MLflow experiment tracking
+│   ├── 04_mlflow_pipeline.ipynb             # MLflow: logs the full pipeline
 │   └── student_data.csv                     # Dataset
 ├── static/                # CSS / JS
 ├── templates/             # HTML templates
